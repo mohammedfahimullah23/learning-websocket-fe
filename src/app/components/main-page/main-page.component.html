@@ -1,0 +1,16 @@
+<div class="circle-container">
+  <h2>Planning Poker Session</h2>
+  <h4>Your Name - {{ userDetails && userDetails.name }}</h4>
+
+  <div class="table">
+    <div
+      *ngFor="let user of users; let i = index"
+      class="user"
+      [ngStyle]="getUserPosition(i)"
+    >
+      <div class="user-name">{{ user.name }}</div>
+    </div>
+  </div>
+</div>
+
+<app-modal #modal (nameSubmitted)="handleSubmission($event)"> </app-modal>

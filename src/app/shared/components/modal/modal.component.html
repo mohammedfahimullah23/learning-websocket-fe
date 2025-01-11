@@ -1,0 +1,7 @@
+<div class="modal-overlay" *ngIf="isVisible">
+  <div class="modal">
+    <h2>Enter Your Name</h2>
+    <input [(ngModel)]="name" placeholder="Enter your name" />
+    <button (click)="submitName()">Submit</button>
+  </div>
+</div>

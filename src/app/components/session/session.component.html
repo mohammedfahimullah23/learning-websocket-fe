@@ -1,0 +1,32 @@
+<!-- session.component.html -->
+<div class="container">
+    <div class="header">
+        <h1>Welcome to Planning Poker!</h1>
+        <p>Collaborate with your team to estimate project tasks effectively.</p>
+    </div>
+    <div class="content">
+        <h2>What is Planning Poker?</h2>
+        <p>
+            Planning Poker is a consensus-based technique for estimating, mostly used in Agile development.
+            It combines expert opinion, analogy, and disaggregation into an enjoyable game format.
+        </p>
+        <div class="card-container">
+            <div class="card">
+                <h3>Why Use Planning Poker?</h3>
+                <ul>
+                    <li>Engages all team members</li>
+                    <li>Encourages discussion</li>
+                    <li>Helps reach consensus</li>
+                    <li>Improves estimation accuracy</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>How It Works</h3>
+                <p>Each team member estimates the effort required for each task using cards with values.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <button class="create-session-btn" (click)="createSession()">Create a New Session</button>
+    </div>
+</div>

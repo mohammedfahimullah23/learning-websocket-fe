@@ -1,0 +1,9 @@
+Create a new session.
+Join an existing session.
+Submit votes for a session.
+Reveal votes (results).
+Real-time updates using WebSocket.
+
+
+Add Expiry date for session
+If i go directly to session page. check if the session id exists. then allow
